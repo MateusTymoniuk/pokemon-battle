@@ -13,15 +13,26 @@ public class Monster {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
 
-    private String nome;
+    private String name;
+
+    private Double strength;
+
+    private Integer level;
 
     public Monster() { }
 
-    public Monster(long id, String nome) {
+    public Monster(
+            Long id,
+            String name,
+            Double strength,
+            Integer level
+    ) {
         this.id = id;
-        this.nome = nome;
+        this.name = name;
+        this.strength = strength;
+        this.level = level;
     }
 
 }
