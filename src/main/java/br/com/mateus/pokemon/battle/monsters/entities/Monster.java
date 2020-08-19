@@ -1,4 +1,4 @@
-package br.com.mateus.pokemon.battle.monsters;
+package br.com.mateus.pokemon.battle.monsters.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
